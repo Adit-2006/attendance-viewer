@@ -24,6 +24,8 @@ Built to give school administrators a fast, filterable view of student participa
 | Routing | React Router 7 | Client-side nav between views |
 
 ## Project Structure
+
+```
 Project1/
 ├── attendance-viewer/
 │   ├── public/
@@ -38,6 +40,7 @@ Project1/
 │   ├── vite.config.js
 │   └── eslint.config.js
 └── package.json
+```
 
 ## Setup
 
