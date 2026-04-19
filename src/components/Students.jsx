@@ -15,7 +15,7 @@ function Students() {
         async function getStudents() {
             if (studentList.length == 0) {
                 let response = await axios.get('https://jsonplaceholder.typicode.com/users')
-                const modifiedList = response.data.map(student => ({
+                const modifiedList = response?.data.map(student => ({
                     ...student,
                     isPresent: Math.random() > 0.6,
                     attendance: Math.floor(Math.random() * (50)) + 50,
@@ -34,7 +34,7 @@ function Students() {
     function filterChange(filter) {
         setFilter(filter)
     }
-    const displayList = studentList.filter((student) => {
+    const displayList = studentList?.filter((student) => {
         if (filter === 'present') {
             return student.isPresent === true
         }
