@@ -4,7 +4,7 @@ A React dashboard for viewing and managing student attendance data.
 
 ## Overview
 
-Built to give school administrators a fast, filterable view of student participation. React 19 + Vite keeps the dev loop quick and the UI responsive even with large datasets — no noticeable lag on table updates, which was the main thing I was trying to avoid.
+Built to give school administrators a fast, filterable view of student participation. React 19 + Vite keeps the dev loop quick and the UI responsive even with large datasets, no noticeable lag on table updates, which was the main thing I was trying to avoid.
 
 ## Features
 
